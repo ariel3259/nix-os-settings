@@ -1,5 +1,5 @@
 {
-  description = "NixOS Gaming System";
+  description = "NixOS by ArielS";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
@@ -19,6 +19,8 @@
           ./modules/steam.nix
           ./modules/vr.nix
           ./modules/kernel.nix
+          ./modules/network.nix
+          ./modules/users.nix
         ];
       };
   };

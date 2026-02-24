@@ -6,6 +6,8 @@
     ./modules/steam.nix
     ./modules/vr.nix
     ./modules/kernel.nix
+    ./modules/network.nix
+    ./modules/users.nix
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
