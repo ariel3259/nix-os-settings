@@ -21,6 +21,7 @@
           ./modules/kernel.nix
           ./modules/network.nix
           ./modules/users.nix
+          ./modules/bluetooth.nix
         ];
       };
   };

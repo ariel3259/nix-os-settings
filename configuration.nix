@@ -8,6 +8,7 @@
     ./modules/kernel.nix
     ./modules/network.nix
     ./modules/users.nix
+    ./modules/bluetooth.nix
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];

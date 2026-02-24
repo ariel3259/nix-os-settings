@@ -3,8 +3,10 @@
 {
   networking.hostName = "ari-nixos";
 
-  networking.networkmanager.enable = true;
+  networking.networkmanager = {
+    enable = true;
+    wifi.powersave = false;
+  };
 
-  # Importante para Wi-Fi
   networking.useDHCP = false;
 }
