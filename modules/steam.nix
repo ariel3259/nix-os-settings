@@ -6,11 +6,9 @@
     remotePlay.openFirewall = true;
     dedicatedServer.openFirewall = true;
   };
-
+  programs.gamemode.enable = true;
   environment.systemPackages = with pkgs; [
-    steam
     mangohud
-    gamemode
     protontricks
     lutris
   ];
