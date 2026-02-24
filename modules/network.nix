@@ -8,5 +8,8 @@
     wifi.powersave = false;
   };
 
+  # NetworkManager gestiona DHCP por su cuenta
   networking.useDHCP = false;
+
+  networking.firewall.enable = true;
 }

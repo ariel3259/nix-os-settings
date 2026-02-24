@@ -5,13 +5,13 @@
     isNormalUser = true;
     description = "ArielS";
     extraGroups = [
-      "wheel"        # sudo
+      "wheel"          # sudo
       "networkmanager"
       "audio"
       "video"
       "input"
     ];
-    shell = pkgs.zsh; # o bash si preferís
+    shell = pkgs.zsh;
   };
 
   users.defaultUserShell = pkgs.zsh;
